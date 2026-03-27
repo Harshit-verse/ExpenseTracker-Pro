@@ -1,98 +1,115 @@
-# 💸 Expense Tracker Pro
+# 💸 Expense Tracker Pro (React)
 
-Expense Tracker Pro is a modern and feature-rich expense tracking web application designed to help users monitor income, manage expenses, set budgets, track savings goals, and analyze spending patterns through interactive dashboards and visual analytics.
+A modern, feature-rich Expense Tracking Web Application built using React (Vite). This application helps users manage finances, track expenses, set budgets, and gain insights through interactive analytics.
 
-The project focuses on clean UI, real-world financial logic, and a smooth user experience using vanilla JavaScript.
+💡 Upgraded from a Vanilla JavaScript implementation to a scalable React-based architecture.
 
-## 🚀 Features
+🌟 Features
+📊 Smart Dashboard
+Real-time financial overview:
+Net Balance 💰
+Total Income 📈
+Total Expenses 📉
+Total Transactions 🔢
+Monthly insights (income, expenses, savings rate)
+Highlights top spending category
 
-### 📊 Dashboard
-- Total balance, income, and expenses overview
-- Recent transactions summary
-- Spending distribution by category (charts)
-- Income vs expenses comparison
+💳 Transaction Management
+Add, edit, and delete transactions
+Categorize expenses (Shopping, Food, Transport, Bills, etc.)
+Instant UI updates without reload
+Clean and responsive transaction list
 
-### 💳 Transactions
-- Add income and expense transactions
-- Categorize transactions
-- Add tags and notes
-- Filter transactions (All / Income / Expenses)
+🎯 Budget Tracking
+Set category-wise budgets
+Monitor spending against limits
+Helps control overspending
 
-### 🎯 Budgets
-- Set monthly budgets by category
-- Visual progress bars showing budget usage
-- Delete or update budgets
+🏆 Goals Management
+Set financial goals
+Track progress visually
+Encourages better saving habits
 
-### 🏆 Savings Goals
-- Create savings goals with target amounts and dates
-- Track goal progress percentage
-- Add money to goals
-- Remaining amount and days left calculation
+📈 Analytics & Insights
+Interactive charts using Recharts
+Pie chart for category-wise spending
+Bar chart for monthly overview
+Clear financial insights for decision-making
 
-### 📈 Analytics
-- Spending trends over time
-- Income trends over time
-- Key financial insights:
-  - Highest spending category
-  - Average daily spending
-  - Net balance
-  - Total transactions
+🔍 Search & Filters
+Search transactions instantly
+Filter by categories
+Efficient handling of large data
 
-### 🌙 UI & UX
-- Clean dashboard-style layout
-- Dark mode toggle
-- Responsive design
-- Modern cards and visual hierarchy
+🌙 Dark Mode UI
+Toggle between light and dark themes
+Modern and visually appealing interface
 
-## 🛠 Tech Stack
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Chart.js (for charts & analytics)
+📤 Data Export
+Export transactions as CSV
+Useful for backup or external analysis
 
-## 📂 Project Structure
-expense-tracker-pro/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│ └── icons / images
-└── README.md
+💾 Persistent Storage
+Data stored using LocalStorage
+No backend (WILL WORK ON IT FOR SURE)
+Custom hook implementation for persistence
 
+🛠 Tech Stack
+Frontend: React (Vite)
+Styling: Tailwind CSS
+Charts: Recharts
+State Management: React Hooks (useState, useMemo)
+Storage: LocalStorage (Custom Hook)
 
-## ⚙️ How to Run Locally
+🧠 Architecture Highlights
+Component-based modular structure
+Custom hooks for reusable logic (useLocalStorage)
+Separation of concerns (components, hooks, utils)
+Optimized rendering using useMemo
+Scalable and maintainable codebase
 
-Clone the repository:
-```bash
-git clone https://github.com/<your-username>/Harshit-verse.git
-Navigate to the project folder:
+📁 Project Structure
+src/
+│
+├── components/       # UI components (Dashboard, Charts, etc.)
+├── hooks/            # Custom hooks
+├── utils/            # Helper functions
+├── App.jsx           # Main app logic
+├── main.jsx          # Entry point
 
-cd expense-tracker-pro
-Open index.html in your browser
-or use Live Server in VS Code for best experience.
+⚡ Getting Started
+1. Clone the repository
+git clone https://github.com/your-username/ExpenseTracker-Pro.git
+2. Navigate to project
+cd ExpenseTracker-Pro
+3. Install dependencies
+npm install
+4. Run the app
+npm run dev
 
-🌐 Live Demo
-🔗 Deployed on Vercel
-https://expense-tracker-pro-ecru.vercel.app/
-
-📌 Future Improvements
-Persistent storage using LocalStorage / Database
-
-Authentication & user accounts
-
-Export data to CSV / PDF
-
-Monthly & yearly reports
-
-Multi-currency support
-
-🤝 Contributing
-Contributions are welcome. Fork the repository and submit a pull request with improvements or new features.
-
-📄 License
-This project is open-source and available under the MIT License.
+🚀 Live Demo
+expense-tracker-pro-ecru.vercel.app
 
 
+🔄 Project Evolution
+
+Initially built using:
+
+HTML, CSS, JavaScript (Vanilla)
+
+Upgraded to:
+
+⚛️ React (Vite)
+Improvements:
+Better scalability
+Reusable components
+Cleaner architecture
+Improved performance
+Enhanced UI/UX
+
+🤝 Contribution
+
+Contributions are welcome! Feel free to fork and improve the project.
 ---
 
 
